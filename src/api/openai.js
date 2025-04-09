@@ -1,4 +1,4 @@
-import LessonGenerator from "../components/LessonGenerator";
+
 
 export async function generateLesson(title, topic) {
     const prompt = `Generate a structured lesson for the course "${title}" on the topic "${topic}". Include:
